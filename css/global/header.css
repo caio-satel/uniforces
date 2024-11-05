@@ -22,12 +22,13 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .header-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
 .header-menu a {
@@ -41,7 +42,7 @@
     display: block;
     height: 2px;
     width: 0px;
-    background: #000;
+    background: linear-gradient(to right, red, orange, white);
     margin-top: 4px;
     transition: 0.3s;
     position: absolute;
@@ -52,8 +53,6 @@
     width: 100%;
 }
 
-@media (max-width: 800) {
-    .header-menu {
-        
-    }
-}
+/* @media (max-width: 800) {
+    
+} */
