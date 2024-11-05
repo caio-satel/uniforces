@@ -53,6 +53,8 @@
     width: 100%;
 }
 
-/* @media (max-width: 800) {
-    
-} */
+@media (max-width: 600px) {
+    .header-menu {
+        display: none;
+    }
+}

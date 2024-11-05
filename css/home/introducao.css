@@ -20,8 +20,8 @@
     font-weight: 200;
     text-transform: uppercase;
     color: #000;
-    max-width: 18ch;
-    margin-top: 20px;
+    max-width: 20ch;
+    
 }
 
 .introducao-titulo h1 span {
@@ -55,27 +55,52 @@
     align-items: center;
     gap: 8px;
     color: #000;
-    padding: 12px;
+    padding: 12px 0px;
     border-radius: 4px;
-    font-size: .875rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
-/* @media (max-width: 1100px) {
-    .introducao
+@media (max-width: 1100px) {
+    .introducao-titulo {
+        padding: 0px 20px;
+    }
+    .introducao-titulo h1 {
+        font-size: 3em;
+        margin-top: 0px;
+    }
+    .introducao-titulo p {
+        font-size: 1.8rem;
+    }
+    .introducao-lista li {
+        font-size: 1rem;
+    }
 }
 
-@media (max-width: 800) {
-    .introducao-bg {
-        background: none;
+@media (max-width: 800px) {
+    .introducao-titulo h1 {
+        font-size: 2rem;
     }
+    .introducao-titulo p {
+        font-size: 1rem;
+        max-width: fit-content;
+    }
+    .introducao-lista li {
+        font-size: 1rem;
+        max-width: fit-content;
+    }
+    .introducao-lista img{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 600px) {
     .introducao {
         grid-template-columns: 1fr;
     }
-    .introducao-titulo h1 {
-        font-size: 1rem;
+    .introducao-lista li {
+        font-size: .875rem;
+        max-width: fit-content;
     }
-    .introducao-titulo p {
-        font-size: 0.5rem;
-    }
-} */
+}
