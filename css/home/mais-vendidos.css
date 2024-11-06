@@ -1,0 +1,23 @@
+.mais-vendidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.mais-vendidos-titulo {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.mais-vendidos-titulo h2 {
+    font-size: 3rem;
+}
+
+.lista-itens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}

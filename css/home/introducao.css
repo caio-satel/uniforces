@@ -1,6 +1,5 @@
 .introducao-bg {
-    background-image: url('../../assets/header-bg.jpg');
-    background-size: cover;
+    background-color: #000;
     /* box-shadow: inset 0 20px #fff, inset 0 -20px #fff; */
 }
 
@@ -11,7 +10,6 @@
 }
 
 .introducao-titulo {
-    background-color: #fff;
     padding: 0px 40px;
 }
 
@@ -19,7 +17,7 @@
     font-size: 4rem;
     font-weight: 200;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     max-width: 20ch;
 }
 
@@ -35,7 +33,7 @@
 .introducao-titulo p {
     font-size: 2rem;
     font-weight: 300;
-    color: #000;
+    color: #fff;
     margin-top: 20px;
 }
 
@@ -54,7 +52,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #000;
+    color: #fff;
     padding: 12px 0px;
     border-radius: 4px;
     font-size: 1rem;
