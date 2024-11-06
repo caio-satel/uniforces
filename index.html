@@ -15,10 +15,27 @@
 </head>
 
 <body>
-    <div class="header-carrossel">
-        <p class="texto1">Frete <span>grátis</span> para todo Brasil.</p>
-        <p class="texto2">Ganhe <span>5% OFF no Pix</span> ou 10x sem juros.</p>
-        <p class="texto3">Compra segura com <span>entrega garantida</span>.</p>
+    <div class="carrossel-promo" id="carrosselPromo">
+        <div class="container">
+            <div class="slide-container">
+                <button class="botao-nav anterior" aria-label="Promoção anterior">❮</button>
+                
+                <div class="slide ativo">
+                    <p>Frete <span>grátis</span> para todo Brasil.</p>
+                </div>
+                <div class="slide">
+                    <p>Ganhe <span>5% OFF no Pix</span> ou 10x sem juros.</p>
+                </div>
+                <div class="slide">
+                    <p>Compra segura com <span>entrega garantida</span></p>
+                </div>
+
+                <button class="botao-nav proximo" aria-label="Próxima promoção">❯</button>
+                <button class="fechar" aria-label="Fechar promoções">✕</button>
+            </div>
+
+            <div class="indicadores"></div>
+        </div>
     </div>
 
     <header>
@@ -52,8 +69,10 @@
                         <img src="./assets/garantia.svg" width="85" height="85" alt="">Direto da Fábrica
                     </li>
                 </ul>
+                <a href="./">Solicitar orçamento</a>
             </div>
         </div>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>

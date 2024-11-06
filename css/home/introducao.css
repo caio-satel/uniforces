@@ -46,6 +46,7 @@
 }
 
 .introducao-lista {
+    max-width: max-content;
     margin-top: 20px;
     color: #fff;
 }
@@ -59,6 +60,25 @@
     border-radius: 4px;
     font-size: 1rem;
     font-weight: 300;
+    max-width: max-content;
+}
+
+.introducao-titulo a {
+    display: inline-block;
+    font-size: 1.2rem;
+    background: #3d3d3d;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 10px;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+.introducao-titulo a:hover {
+    background: #5e5e5e;
 }
 
 @media (max-width: 1100px) {
