@@ -21,7 +21,6 @@
     text-transform: uppercase;
     color: #000;
     max-width: 20ch;
-    
 }
 
 .introducao-titulo h1 span {
@@ -66,7 +65,7 @@
 .introducao-titulo a {
     display: inline-block;
     font-size: 1.2rem;
-    background: #3d3d3d;
+    background: linear-gradient(to right, #0000ff, #ff0000, #ffa500);
     color: #fff;
     text-transform: uppercase;
     padding: 5px 10px;
@@ -78,7 +77,7 @@
 }
 
 .introducao-titulo a:hover {
-    background: #5e5e5e;
+    background: linear-gradient(to left, #0000ff, #ff0000, #ffa500);
 }
 
 @media (max-width: 1100px) {
